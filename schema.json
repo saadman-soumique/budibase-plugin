@@ -2,9 +2,9 @@
   "type": "component",
   "metadata": {},
   "schema": {
-    "name": "budibase-component",
-    "friendlyName": "budibase-component",
-    "description": "An amazing Budibase component!",
+    "name": "custom-nav-circle",
+    "friendlyName": "custom-nav-circle",
+    "description": "An amazing Budibase custom nav circle component!",
     "icon": "Text",
     "settings": [
       {
