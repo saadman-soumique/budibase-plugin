@@ -1,12 +1,17 @@
 <script>
-  import { getContext } from "svelte"
+  import { getContext } from "svelte";
 
-  export let text
-
-  const { styleable } = getContext("sdk")
-  const component = getContext("component")
+  const { styleable } = getContext("sdk");
+  const component = getContext("component");
 </script>
 
-<div use:styleable={$component.styles}>
-  This is a custom component. The text setting is: {text}.
-</div>
+<style>
+  .circle {
+    height: 32px;
+    width: 32px;
+    background-color: green;
+    border-radius: 50%;
+  }
+</style>
+
+<div use:styleable={$component.styles} class="circle"></div>
